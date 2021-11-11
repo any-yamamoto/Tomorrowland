@@ -4,7 +4,7 @@
  "description": "Bienvenido a la app del festival Tomorrowland",
  "lang": "es",
  "orientation": "portrait",
- "background_color": "#3b0057",
+ "background_color": "#4b1758",
  "display": "fullscreen",
  "start_url": "/app/",
  "icons": [
