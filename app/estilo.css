@@ -1,0 +1,235 @@
+* {
+    font-family: 'Karla', sans-serif;
+
+}
+#home {
+    background-image: url(img/fondo2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#creadores {
+    background-image: url(img/fondo1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Karla', sans-serif;
+}
+#recitales {
+    background-image: url(img/fondo3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#avicii {
+    background-image: url("img/1.png");
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#david {
+    background-image: url("img/2.png");
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#zedd {
+    background-image: url("img/3.png");
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#aoki {
+    background-image: url("img/4.png");
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#garrix {
+    background-image: url("img/5.png");
+    padding: 45px;
+    background-repeat: no-repeat;
+    background-position: center;
+    white-space:normal;
+}
+
+#marsh {
+    background-image: url("img/6.png");
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#vegas {
+    background-image: url("img/7.png");
+    padding: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    white-space:normal;
+}
+
+#tiesto {
+    background-image: url("img/8.png");
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#lens {
+    background-image: url("img/9.png");
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#mapafoto {
+    border-radius: 3%;
+}
+
+.ui-page-theme-a .ui-btn {
+    background-color: #17020f;
+}
+.ui-title {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-transform: uppercase;
+}
+
+#disfrutar {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+}
+
+#banner a {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.ui-btn .ui-btn-icon-right .ui-icon-info{
+    font-family: 'Karla', sans-serif;
+    font-size: 25px;
+} 
+
+.ui-icon-creadores:after {
+    background-image: url("img/creadores.png");
+}
+
+.ui-icon-artistas:after {
+    background-image: url("img/artistas.png");
+}
+
+
+
+.ui-icon-recitales:after {
+    background-image: url("img/recitales.png");
+}
+
+.ui-icon-mapa:after {
+    background-image: url("img/imapa.png");
+}
+
+.ui-grid-a {
+   background-color: rgba(0, 0, 0, 0.61);
+   margin: 20px 10px 20px 10px;
+   padding: 10px 10px 10px 20px;
+   border-radius: 20px;
+   
+}
+.ui-grid-a h4 {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+ #creadores h2 {
+     text-align: center;
+     padding-top: 20px;
+     padding-bottom: 5px;
+ }
+
+ #datos ul li a {
+    font-family: 'Karla', sans-serif;
+ }
+
+ .encabezado {
+    background-color: rgba(0, 0, 0, 0.753);
+    font-size: 17px;
+ }
+
+ .enlaces ul li a {
+    font-family: 'Karla', sans-serif;
+}
+
+.sinfondo {
+    font-size: 17px;
+    background-color: #17020f ;
+ }
+ .cards {
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 15px;
+    margin: 10px 5px 10px 5px;
+    padding: 5px;
+ }
+
+ .mbsc-card-header {
+   margin: 10px 10px 0px 10px;
+ }
+ .mbsc-card-header h2 {
+     text-align: center;
+ }
+
+ .mbsc-card-content {
+    margin: 5px;
+    padding: 0px 5px 0px 5px;
+ }
+ .ui-header .ui-title {
+     margin: 0 10%;
+ }
+ .btnlogo{
+     padding: 28px;
+     background-image: url("img/home.png");
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+
+ #mapa2 {
+    width: 40%;
+   }
+   
+.mapas{
+       text-align: center;
+   }
+
+.digitales {
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.digitales h4 {
+    margin: 2px;
+    font-weight: 800;
+}
+
+.digitales p {
+    color: rgba(255, 255, 255, 0.856);
+    font-weight: 700;
+}
+
+.digitales h2 {
+       text-shadow: 0.5em; 
+}
+

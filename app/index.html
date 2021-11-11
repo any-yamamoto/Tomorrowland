@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="jqm/jquery.mobile-1.4.5.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <script src="jqm/jquery-1.12.3.min.js"></script>
+    <script src="jqm/jquery.mobile-1.4.5.js"></script>
+    <link rel="stylesheet" href="prueba7.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <script>
+         $(document).on("click", function(){
+            $.mobile.defaultPageTransition = "slide";
+            $.mobile.defaultDialogTransition = "slidedown";
+         });
+    </script>
+    <title>Tomorrowland</title>  
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+
+</head>
+<body>
+    <div data-role="page" id="home">
+        <div data-role="header" class="encabezado">
+            <h1>TOMORROWLAND</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <div class="digitales">
+                    <h2>EDICIONES DIGITALES</h2>
+                    <br>
+                    <h4>Tomorrowland Around The World</h4>
+                    <p>15 de Enero 2022</p>
+                    <h4>Tomorrowland Under Through Music</h4>
+                    <p>20 de Febrero 2022</p>
+                    <h4>Tomorrowland Around The World</h4>
+                    <p>13 de Marzo 2022</p>
+                    <h4>Tomorrowland Life of Music</h4>
+                    <p>4 de Mayo 2022</p>
+            </div>
+            <p id="disfrutar">¿ESTÁS LISTO PARA DISFRUTAR?</p>
+            
+        </div>
+    <div data-role="footer" data-position="fixed" class="ui-footer ui-bar-a ui-footer-fixed slideup">
+        <div data-role="navbar" data-iconpos="top" class="enlaces">
+            <ul>
+                <li><a href="#creadores" data-icon="creadores">Creadores</a></li>
+                <li><a href="#artistas" data-icon="artistas">Artistas</a></li>
+                <li><a href="#" class="ui-btn-active ui-state-persist btnlogo"></a></li>
+                <li><a href="#recitales" data-icon="recitales">Recital</a></li>
+                <li><a href="#mapa" data-icon="mapa">Mapa</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+
+    <div data-role="page" id="creadores">
+        <div data-role="header" class="encabezado">
+            <h1>Creadores</h1>
+        </div>
+        <div role="main" class="ui-content" id="datos">
+            <ul data-role="listview" >
+                <li data-icon="info"><a href="#popana" data-rel="popup" data-position-to="window" id="nombres">Ana Yamamoto</a></li>  
+                <li data-icon="info"><a href="#popvalen" data-rel="popup" data-position-to="window">Valentina Capra</a></li>
+                <li data-icon="info"><a href="#popjuli" data-rel="popup" data-position-to="window">Julieta Izzo</a></li>
+            </ul> 
+            <div id="popana" 
+            data-role="popup" 
+            class="ui-content">
+             <a href="#" 
+                 data-rel="back" 
+                 data-role="button" 
+                 data-theme="b" 
+                 data-icon="delete" 
+                 data-iconpos="notext" 
+                 class="ui-btn-right"></a>
+                 <img src="img/ana.png" alt="ana">
+                </div>
+        <div id="popvalen" 
+            data-role="popup" 
+            class="ui-content">
+             <a href="#" 
+                 data-rel="back" 
+                 data-role="button" 
+                 data-theme="b" 
+                 data-icon="delete" 
+                 data-iconpos="notext" 
+                 class="ui-btn-right"></a>
+                 <img src="img/valentina.png" alt="valentina">
+        </div>
+        <div id="popjuli" 
+            data-role="popup" 
+            class="ui-content">
+             <a href="#" 
+                 data-rel="back" 
+                 data-role="button" 
+                 data-theme="b" 
+                 data-icon="delete" 
+                 data-iconpos="notext" 
+                 class="ui-btn-right"></a>
+                 <img src="img/julieta.png" alt="julieta">
+        </div>
+            <h2>Datos</h2>
+            <div class="ui-grid-a" >
+                <div class="ui-block-a">
+                  <h4>Carrera</h4>
+                  <h4>Curso</h4>
+                  <h4>Año</h4>
+                </div>
+                <div class="ui-block-b">
+                    <p>Diseño Multimedial</p>
+                    <p>DMTA5</p>
+                    <p>2021</p>
+                </div>
+            </div>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top" class="enlaces">
+                <ul>
+                    <li><a href="#" class="ui-btn-active ui-state-persist" data-icon="creadores">Creadores</a></li>
+                    <li><a href="#artistas" data-icon="artistas">Artistas</a></li>
+                    <li><a href="#home"  class="btnlogo"></a></li>
+                    <li><a href="#recitales" data-icon="recitales">Recital</a></li>
+                    <li><a href="#mapa" data-icon="mapa">Mapa</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="artistas">
+        <div data-role="header" class="sinfondo">
+            <h1>Artistas</h1>
+        </div>
+        <div role="main" class="ui-content" id="banner">
+                <a href="#pop1" data-role="button" data-rel="popup" data-position-to="window" id="avicii">
+                Avicii
+                </a>
+                <div id="pop1"
+                data-role="popup"
+                class="ui-content">
+                <a href="#"
+                         data-rel="back"
+                         data-role="button"
+                         data-theme="b"
+                         data-icon="delete"
+                         data-iconpos="notext"
+                         class="ui-btn-right"></a>
+                         <img src="img/aviciipop.png" alt="avicii">
+                         <p>Tim Bergling ​ más conocido por su nombre artístico Avicii, es un DJ y compositor sueco, especializado en programación de audio, remezcla y producción de discos</p>
+                         <h3>¿Cuándo toca?</h3>
+                         <p>Viernes 03, 20.30, Main Stage</p>
+                        </div>
+               
+            
+                <a href="#pop2" data-role="button" data-rel="popup" data-position-to="window" id="david">
+                    David Guetta
+                </a>
+                <div id="pop2"
+                data-role="popup"
+                class="ui-content">
+                <a href="#"
+                         data-rel="back"
+                         data-role="button"
+                         data-theme="b"
+                         data-icon="delete"
+                         data-iconpos="notext"
+                         class="ui-btn-right"></a>
+                         <img src="img/davidpop.jpg" alt="davidguetta">
+                         <p>Pierre David Guetta​​​ es un DJ y productor francés de origen italiano, marroquí y belga. Actualmente, ocupa el puesto #1 según la encuesta realizada por DJ Magazine.​</p>
+                         <h3>¿Cuándo toca?</h3>
+                         <p>Sábado 04, 20.00, Main Stage</p>
+                </div>
+               
+               
+                   <a href="#pop3" data-role="button" data-rel="popup" data-position-to="window" id="zedd">
+                       Zedd
+                   </a>
+                   <div id="pop3"
+                   data-role="popup"
+                   class="ui-content">
+                   <a href="#"
+                            data-rel="back"
+                            data-role="button"
+                            data-theme="b"
+                            data-icon="delete"
+                            data-iconpos="notext"
+                            class="ui-btn-right"></a>
+                            <img src="img/zeddpop.png" alt="zedd">
+                            <p>Anton Zaslavski, ​ conocido por su nombre artístico Zedd, es un músico, disc jockey y productor ruso-alemán, orientado hacia el electro house y ganador de un premio Grammy. Su sonido tiene influencias del house progresivo, complextro y el dubstep</p>
+                            <h3>¿Cuándo toca?</h3>
+                            <p>Domingo 05, 20.00, Rose Garden</p>
+                        </div>
+            
+            
+                <a href="#pop4" data-role="button" data-rel="popup" data-position-to="window" id="aoki"> 
+                    Steve Aoki
+                </a>
+                <div id="pop4"
+                data-role="popup"
+                class="ui-content">
+                <a href="#"
+                         data-rel="back"
+                         data-role="button"
+                         data-theme="b"
+                         data-icon="delete"
+                         data-iconpos="notext"
+                         class="ui-btn-right"></a>
+                         <img src="img/aokipop.png" alt="steveaoki">
+                         <p>Steven Hiroyuki Aoki más conocido como Steve Aoki, es un DJ y productor estadounidense-japonés de EDM y fundador del sello discográfico Dim Mak Records. Actualmente, ocupa el puesto #9, según el ranking de la revista DJ Mag</p>
+                         <h3>¿Cuándo toca?</h3>
+                         <p>Madruga del Lunes 05, 01.30, Main Stage</p>
+                    </div>
+              
+
+               
+                <a href="#pop5" data-role="button" data-rel="popup" data-position-to="window" id="garrix">
+                    Martin Garrix
+                </a>
+                <div id="pop5"
+                data-role="popup"
+                class="ui-content">
+                <a href="#"
+                         data-rel="back"
+                         data-role="button"
+                         data-theme="b"
+                         data-icon="delete"
+                         data-iconpos="notext"
+                         class="ui-btn-right"></a>
+                         <img src="img/garrixpop.jpg" alt="garrix">
+                         <p>Martijn Gerard Garritsen, ​​ más conocido como Martin Garrix, es un DJ y productor neerlandés fundador del sello STMPD RCRDS. Ingresó a la encuesta anual Top 100 DJ's realizada por la revista DJ Magazine, directamente al puesto 40. En 2014, obtuvo el 4°puesto y en 2015 fue nombrado 3º.<p>
+                            <h3>¿Cuándo toca?</h3>
+                            <p>Viernes 03, 00.30, Main Stage</p>
+                        </div>
+               
+              
+                   <a href="#pop6" data-role="button" data-rel="popup" data-position-to="window" id="marsh">
+                       Marshmello
+                   </a>
+                   <div id="pop6"
+                   data-role="popup"
+                   class="ui-content">
+                   <a href="#"
+                            data-rel="back"
+                            data-role="button"
+                            data-theme="b"
+                            data-icon="delete"
+                            data-iconpos="notext"
+                            class="ui-btn-right"></a>
+                            <img src="img/marshpop.png" alt="Marshmello">
+                            <p>Christopher Comstock, más conocido por su nombre artístico Marshmello, es un productor y DJ estadounidense de future bass, electrónica y electrohouse. Empezó su carrera en 2015. Comenzó a ganar notoriedad internacional gracias a sus remixes de canciones de Jack Ü y Zedd, entre otros.</p>
+                            <h3>¿Cuándo toca?</h3>
+                            <p>Sábado 04, 20.30, Rose Garden</p>
+                        </div>  
+           
+            
+                <a href="#pop7" data-role="button" data-rel="popup" data-position-to="window" id="vegas">
+                    Dimitri Vegas & Like Mike
+                </a>
+                <div id="pop7"
+                data-role="popup"
+                class="ui-content">
+                <a href="#"
+                         data-rel="back"
+                         data-role="button"
+                         data-theme="b"
+                         data-icon="delete"
+                         data-iconpos="notext"
+                         class="ui-btn-right"></a>
+                         <img src="img/vegaspop.jpg" alt="dimitrivegas">
+                         <p>Dimitri Vegas & Like Mike son un dúo belga de DJs de EDM compuesto por los hermanos Dimitri Thivaios y Michael Thivaios. En 2015 y 2019 obtuvieron el primer puesto en la encuesta realizada por la revista DJmag. Actualmente son los #5 en la encuesta realizada en 2021 ​ Ingresaron en 2011 ubicándose en la posición #79.</p>
+                         <h3>¿Cuándo toca?</h3>
+                         <p>Sábado 04, 00.30, Main Stage</p>
+                    </div>
+               
+               
+                <a href="#pop8" data-role="button" data-rel="popup" data-position-to="window" id="tiesto">
+                    Tiesto
+                </a>
+                <div id="pop8"
+                data-role="popup"
+                class="ui-content">
+                <a href="#"
+                         data-rel="back"
+                         data-role="button"
+                         data-theme="b"
+                         data-icon="delete"
+                         data-iconpos="notext"
+                         class="ui-btn-right"></a>
+                         <img src="img/tiestopop.png" alt="tiesto">
+                         <p>Tijs Michiel Verwest ​ es un DJ y productor neerlandés. A pesar de que ha utilizado muchos alias en el pasado, es más conocido por su trabajo como DJ Tiësto o simplemente como Tiësto, un apodo que proviene de su sobrenombre de la infancia.</p>
+                         <h3>¿Cuándo toca?</h3>
+                         <p>Sábado 23.00, 20.30, Main Stage</p>
+                    </div>
+              
+              
+                   <a href="#pop9" data-role="button" data-rel="popup" data-position-to="window" id="lens">
+                       Amelie Lens
+                   </a>
+                   <div id="pop9"
+                   data-role="popup"
+                   class="ui-content">
+                   <a href="#"
+                            data-rel="back"
+                            data-role="button"
+                            data-theme="b"
+                            data-icon="delete"
+                            data-iconpos="notext"
+                            class="ui-btn-right"></a>
+                            <img src="img/ameliepop.jpg" alt="amelielens">
+                            <p>Amelie Lens es una DJ de música electrónica belga, productora discográfica y propietaria del sello Lenske. En 2016 debutó con el EP Exhale, bajo el sello de la discográfica italiana Lyase Recordings.​ Más tarde lanzaría tres EPs con Second State, el sello de Pan-Pot.</p>
+                            <h3>¿Cuándo toca?</h3>
+                            <p>Domingo 05, 00:30, Main Stage</p>
+                        </div>  
+                    </div>
+        <div data-role="footer" data-position="fixed" class="ui-footer ui-bar-a ui-footer-fixed slideup"> 
+            <div data-role="navbar" data-iconpos="top" class="enlaces">
+                <ul>
+                    <li><a href="#creadores" data-icon="creadores">Creadores</a></li>
+                    <li><a href="#" class="ui-btn-active ui-state-persist" data-icon="artistas">Artistas</a></li>
+                    <li><a href="#home" class="btnlogo"></a></li>
+                    <li><a href="#recitales" data-icon="recitales">Recital</a></li>
+                    <li><a href="#mapa" data-icon="mapa">Mapa</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="recitales">
+        <div data-role="header" class="encabezado">
+            <h1>Recitales</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <div>
+                <div data-role="collapsible" data-collapsed="false">
+                <h3 id="fechas">Viernes 03 de Octubre</h3>
+                <div class="ui-grid-b">
+                <div class="ui-block-a">
+                    <h4>Horario</h4>
+                    <p>19:00</p>
+                    <p>20:30</p>
+                    <p>21:30</p>
+                    <p>23:00</p>
+                    <P>00:30</P>
+                </div>
+                <div class="ui-block-b">
+                    <h4>Artista</h4>
+                    <p>Dyro</p>
+                    <p>Avicii</p>
+                    <p>Deorro</p>
+                    <p>R3hab</p>
+                    <p>Martin Garrix</p>
+                </div>
+                <div class="ui-block-c">
+                    <h4>Escenario</h4>
+                    <p>ROSE GARDEN</p>
+                    <p>MAIN STAGE</p>
+                    <p>ROSE GARDEN</p>
+                    <p>L'ORANGERIE</p>
+                    <p>MAIN STAGE</p>
+                </div>
+            </div>
+                </div>
+                <div data-role="collapsible">
+                    <h3>Sábado 04 de Octubre</h3>
+                    <div class="ui-grid-b">
+                    <div class="ui-block-a">
+                        <h4>Horario</h4>
+                        <p>19:20</p>
+                        <p>20:00</p>
+                        <p>20:30</p>
+                        <p>21:30</p>
+                        <p>23:00</p>
+                        <P>00:30</P>
+                    </div>
+                    <div class="ui-block-b">
+                        <h4>Artista</h4>
+                        <p>ArtBat</p>
+                        <p>David Guetta</p>
+                        <p>Marshmello</p>
+                        <p>Major Lazer</p>
+                        <p>Tiesto</p>
+                        <p>Dimitri Vegas & Like Mike</p>
+                    </div>
+                    <div class="ui-block-c">
+                        <h4>Escenario</h4>
+                        <p>ROSE GARDEN</p>
+                        <p>MAIN STAGE</p>
+                        <p>ROSE GARDEN</p>
+                        <p>L'ORANGERIE</p>
+                        <p>MAIN STAGE</p>
+                        <p>MAIN STAGE</p>
+                    </div>
+                </div>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>Domingo 05 de Octubre</h3>
+                        <div class="ui-grid-b">
+                        <div class="ui-block-a">
+                            <h4>Horario</h4>
+                            <p>20:00</p>
+                            <p>20:30</p>
+                            <p>21:30</p>
+                            <p>23:00</p>
+                            <P>00:30</P>
+                            <p>1:30</p>
+                        </div>
+                        <div class="ui-block-b">
+                            <h4>Artista</h4>
+                            <p>Zedd</p>
+                            <p>Duck Sauce</p>
+                            <p>Netsky</p>
+                            <p>Coone</p>
+                            <p>Amelie Lens</p>
+                            <p>Steve Aoki</p>
+                        </div>
+                        <div class="ui-block-c">
+                            <h4>Escenario</h4>
+                            <p>ROSE GARDEN</p>
+                            <p>MAIN STAGE</p>
+                            <p>ROSE GARDEN</p>
+                            <p>L'ORANGERIE</p>
+                            <p>MAIN STAGE</p>
+                            <p>MAIN STAGE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-role="footer" data-position="fixed" class="ui-footer ui-bar-a ui-footer-fixed slideup">
+            <div data-role="navbar" data-iconpos="top" class="enlaces">
+                <ul>
+                    <li><a href="#creadores" data-icon="creadores">Creadores</a></li>
+                    <li><a href="#artistas" data-icon="artistas">Artistas</a></li>
+                    <li><a href="#home" class="btnlogo"></a></li>
+                    <li><a href="#"  class="ui-btn-active ui-state-persist" data-icon="recitales">Recital</a></li>
+                    <li><a href="#mapa" data-icon="mapa">Mapa</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="mapa">
+        <div data-role="header" class="sinfondo">
+            <h1>Mapa</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <div><img src="img/mapa.png" alt="mapa"></div>
+            <div class="mapas"><img src="img/mapa2.png" alt="mapa2"  id="mapa2"></div>
+            <div class="mapas"><img src="img/mapa3.png" alt="referencias"></div>
+            <div class="mapas"><img src="img/mapa4.png" alt="referencias"></div>
+            <div class="mapas"><img src="img/mapa5.png" alt="referencias"></div>    
+        </div>
+        <div data-role="footer" data-position="fixed" class="ui-footer ui-bar-a ui-footer-fixed slideup">
+            <div data-role="navbar" data-iconpos="top" class="enlaces">
+                <ul>
+                    <li><a href="#creadores" data-icon="creadores">Creadores</a></li>
+                    <li><a href="#artistas" data-icon="artistas">Artistas</a></li>
+                    <li><a href="#home" class="btnlogo"></a></li>
+                    <li><a href="#recitales" data-icon="recitales">Recital</a></li>
+                    <li><a href="#" class="ui-btn-active ui-state-persist" data-icon="mapa">Mapa</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

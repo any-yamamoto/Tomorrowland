@@ -1,0 +1,213 @@
+body {
+  background-color: black;
+}
+h1,
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+}
+p {
+  font-family: "Karla", sans-serif;
+}
+section {
+  margin: 15rem 0 15rem 0;
+}
+.titulos {
+  font-size: 5rem;
+  color: white;
+  padding-bottom: 1.5rem;
+}
+.titulos2 {
+  font-size: 3rem;
+  color: white;
+  padding: 3rem 0 3rem 0;
+}
+.navbar {
+  background-color: rgba(70, 0, 88, 0.377);
+}
+.nav-link,
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Karla", sans-serif;
+}
+.nav-link:focus,
+.nav-link:hover,
+a:hover {
+  color: #ffffff;
+}
+/* fin nav y titulos */
+
+.animacion {
+  display: flex;
+  justify-content: center;
+}
+
+.animacion li {
+  margin: 50px;
+  align-content: center;
+}
+
+.animacion a {
+  position: relative;
+  display: block;
+  padding: 5px;
+}
+.animacion a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #3b0057, #55017c, #8302be);
+  z-index: 1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease-in-out;
+}
+
+.animacion a:hover::before {
+  transform: scaleX(1);
+}
+.animacion[data-animation="to-left"] a::before {
+  transform-origin: right;
+}
+
+.animacion[data-animation="center"] a::before {
+  transform-origin: center;
+}
+
+.animacion[data-animation="bonus"] a::before {
+  transform-origin: right;
+}
+
+.animacion[data-animation="bonus"] a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.82, 0.94);
+}
+
+.page-footer {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 1rem;
+}
+
+.page-footer span {
+  color: var(--red);
+}
+
+/* fin nav y animacion */
+
+.auto {
+  margin: auto;
+}
+.cards1 .card {
+  margin: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  text-align: center;
+  justify-content: center;
+}
+.card {
+  margin: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  justify-content: center;
+}
+.cards1 .bg-dark {
+  --bs-bg-opacity: 0;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+#card1 {
+  background-image: url(../media/1.jpg);
+}
+#card2 {
+  background-image: url(../media/2.jpg);
+}
+
+#card5 {
+  background-image: url(../media/3.jpg);
+}
+#card6 {
+  background-image: url(../media/4.jpg);
+}
+#card8 {
+  background-image: url(../media/5.jpg);
+}
+#card9 {
+  background-image: url(../media/6.jpg);
+}
+
+#card10 {
+  background-image: url(../media/7.jpg);
+}
+#card11 {
+  background-image: url(../media/8.jpg);
+}
+#card13 {
+  background-image: url(../media/9.jpg);
+}
+#card15 {
+  background-image: url(../media/10.jpg);
+}
+#card17 {
+  background-image: url(../media/11.jpg);
+}
+#card19 {
+  background-image: url(../media/12.jpg);
+}
+#card21 {
+  background-image: url(../media/13.jpg);
+}
+.card-img-overlay {
+  position: relative;
+}
+
+/* fin cards */
+
+footer {
+  color: white;
+}
+#nosotras img {
+  width: 13%;
+  height: auto;
+  margin: auto;
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    flex: 0 0 auto;
+    width: 31.333333%;
+  }
+}
+@media (min-width: 768px) {
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 49%;
+  }
+}
+
+@media (max-width: 795px) {
+  #nosotras img {
+    width: 48%;
+    height: auto;
+    margin: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .reverza {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .titulos {
+    font-size: 4rem;
+    color: white;
+    padding-bottom: 1.5rem;
+  }
+}
+

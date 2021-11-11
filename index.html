@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tomorrowland</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="media/favicon_io/favicon-16x16.png"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="iconos/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="iconos/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="iconos/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="iconos/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="iconos/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="iconos/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="iconos/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="iconos/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="iconos/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="iconos/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="iconos/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="iconos/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#3b0057" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#3b0057" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="msapplication-starturl" content="/app/" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="media/tomorrowland.png"
+              alt="Tomorrowland"
+              width="30"
+              height="30"
+              class="d-inline-block align-text-top"
+            />
+            Tomorrowland
+          </a>
+
+          <div class="row justify-content-end">
+            <a
+              class="col-4"
+              href="https://www.facebook.com/tomorrowland"
+              target="blank"
+            >
+              <picture>
+                <source
+                  media="(max-width:600px)"
+                  srcset="media/facebook.png"
+                  alt="logo"
+                  width="20"
+                  height="20"
+                />
+                <img src="media/facebook.png" alt="facebook" />
+              </picture>
+            </a>
+            <a
+              class="col-4"
+              href="https://www.instagram.com/tomorrowland/"
+              target="blank"
+            >
+              <picture>
+                <source
+                  media="(max-width:600px)"
+                  srcset="media/ig.png"
+                  alt="logo"
+                  width="20"
+                  height="20"
+                />
+                <img src="media/ig.png" alt="instagram" />
+              </picture>
+            </a>
+            <a
+              class="col-4"
+              href="https://twitter.com/tomorrowland"
+              target="blank"
+            >
+              <picture>
+                <source
+                  media="(max-width:600px)"
+                  srcset="media/tw.png"
+                  alt="logo"
+                  width="20"
+                  height="20"
+                />
+                <img src="media/tw.png" alt="twitter" />
+              </picture>
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container mt-5">
+        <ul
+          class="nav justify-content-center my-5 animacion"
+          data-animation="center"
+        >
+          <li class="nav-item">
+            <a class="nav-link" href="#festival">FESTIVAL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#dreamville">DREAMVILLE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">GALLERY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#global">GLOBAL JOURNEY</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <a class="ir-arriba" javascript:void(0) title="Volver arriba">
+        <span class="fa-stack">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+      <section class="container my-5" id="festival">
+        <h1 class="titulos text-center">Festival</h1>
+        <div class="row mb-5 cards1">
+          <div
+            id="card1"
+            class="card bg-dark text-white col-10 col-md-5 col-lg-4 my-2"
+          >
+            <div class="card-img-overlay">
+              <h5 class="card-title">TOMORROWLAND</h5>
+              <p class="card-text">
+                Enter a fascinating story to be written during two weekends of
+                love and unity.
+              </p>
+            </div>
+          </div>
+
+          <div
+            id="card2"
+            class="card bg-dark text-white col-10 col-md-5 col-lg-4 my-2"
+          >
+            <div class="card-img-overlay">
+              <h5 class="card-title">DREAMVILLE</h5>
+              <p class="card-text">
+                A vibrant city that welcomes tens of thousands festival visitors
+                after an exuberant day at Tomorrowland.
+              </p>
+            </div>
+          </div>
+
+          <div
+            id="card3"
+            class="card bg-dark text-white col-10 col-md-5 col-lg-4 my-2"
+          >
+            <div class="card-img-overlay">
+              <h5 class="card-title">
+                THE PEOPLE OF TOMORROW <br />
+
+                We are...
+              </h5>
+              <p class="card-text">
+                The People of Tomorrow. We believe in enjoying life to the
+                fullest without having to compromise everything. We are
+                responsible for the generation of tomorrow and respect each
+                other and Mother Nature.
+              </p>
+            </div>
+          </div>
+
+          <div
+            id="card4"
+            class="card bg-dark text-white col-10 col-md-5 col-lg-4 my-2"
+          >
+            <div class="card-img-overlay">
+              <h5 class="card-title">
+                THE PEOPLE OF TOMORROW <br />
+
+                We believe...
+              </h5>
+              <p class="card-text">
+                in a commitment to create a reality that relates positively with
+                Mother Nature and contributes to the well-being of the next
+                generations. Let’s engage with each other and do something good
+                today, for which we will be grateful for tomorrow.
+              </p>
+            </div>
+          </div>
+
+          <div
+            id="card5"
+            class="card bg-dark text-white col-10 col-md-5 col-lg-4 my-2"
+          >
+            <div class="card-img-overlay">
+              <h5 class="card-title">GLOBAL JOURNEY</h5>
+              <p class="card-text">
+                Travel from every corner of the world, all united in a once in a
+                lifetime travel experience that brings you to Tomorrowland.
+                Including your Tomorrowland ticket.
+              </p>
+            </div>
+          </div>
+
+          <div
+            id="card6"
+            class="card bg-dark text-white col-10 col-md-5 col-lg-4 my-2"
+          >
+            <div class="card-img-overlay">
+              <h5 class="card-title">PRACTICAL</h5>
+              <p class="card-text">
+                Discover all practical information on Tomorrowland and prepare
+                for your new magical adventure.
+              </p>
+            </div>
+          </div>
+        </div>
+        <h2 class="titulos2 text-center">Down Memory Lane</h2>
+
+        <div class="row py-5">
+          <div
+            class="card text-white bg-dark mb-3 col-10 col-lg-4 py-3"
+            style="max-width: 18rem"
+          >
+            <div class="card-header">2020</div>
+            <div class="card-body">
+              <h5 class="card-title">Around the World and 31.12.2020</h5>
+              <p class="card-text">
+                An exceptional and challenging year called for new ventures to
+                explore… On the cancellation of Tomorrowland Winter in France
+                and the summer edition in Belgium due to COVID-19, Tomorrowland
+                took a leap into the wonderful digital world, opening the doors
+                to the future on the magical island of Papilionem with the first
+                edition of Tomorrowland Around the World on July 25 & 26.
+                Closing off the year in style with a magical New Year’s Eve
+                celebration, people from all corners of the world counted down
+                to 2021 and danced into the new year at Tomorrowland 31.12.2020.
+              </p>
+            </div>
+          </div>
+
+          <img class="col-12 col-lg-8" src="media/2020.png" alt="año 2020" />
+        </div>
+
+        <div class="row reverza py-5">
+          <img class="col-12 col-lg-8" src="media/2019.png" alt="año 2019" />
+          <div
+            class="card text-white bg-dark mb-3 col-10 col-lg-4 py-3"
+            style="max-width: 18rem"
+          >
+            <div class="card-header">2019</div>
+            <div class="card-body">
+              <h5 class="card-title">The Book of Wisdom – The Return</h5>
+              <p class="card-text">
+                After a first magical edition of Tomorrowland Winter in Alpe
+                d’Huez (March 2019), the 15th Year Celebration edition in
+                Belgium welcomed back one of the most legendary stories ever
+                told. 400,000 People of Tomorrow wrote their own chapter in The
+                Book of Wisdom and witnessed performances by Dimitri Vegas &
+                Like Mike, The Chainsmokers, Martin Garrix, Lost Frequencies,
+                Armin van Buuren, Afrojack and many other incredible artists.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row py-5">
+          <div
+            class="card text-white bg-dark mb-3 col-10 col-lg-4"
+            style="max-width: 18rem"
+          >
+            <div class="card-header">2018</div>
+            <div class="card-body">
+              <h5 class="card-title">The Story of Planaxis</h5>
+              <p class="card-text">
+                Dive into a wonderful and new tale: The Story of Planaxis. With
+                400,000 People of Tomorrow, two wonderful and sunny weekends
+                marked the summer of 2018 as magical. We have returned to the
+                world above and filled our hearts with beautiful memories.
+              </p>
+            </div>
+          </div>
+
+          <img class="col-12 col-lg-8" src="media/2018.png" alt="año 2018" />
+        </div>
+      </section>
+
+      <section class="container my-5" id="dreamville">
+        <h1 class="titulos text-center">Dreamville</h1>
+        <div class="row mb-5 cards1">
+          <div
+            id="card7"
+            class="card bg-dark text-white col-10 col-md-5 col-lg-4 my-2"
+          >
+            <div class="card-img-overlay">
+              <h5 class="card-title">DREAMVILLE</h5>
+              <p class="card-text">
+                DreamVille is a vibrant place: a home to tens of thousands
+                Villagers during their stay at Tomorrowland. A welcoming village
+                where the People of Tomorrow eat, sleep, live and enjoy their
+                5-day experience. Here, people from all walks of life meet and
+                international friendships are made.
+              </p>
+            </div>
+          </div>
+
+          <div
+            id="card8"
+            class="card bg-dark text-white col-10 col-md-5 col-lg-4 my-2"
+          >
+            <div class="card-img-overlay">
+              <h5 class="card-title">THE GATHERING</h5>
+              <p class="card-text">
+                Enjoy the first beats of your magical journey at The Gathering,
+                Tomorrowland’s official opening party, to start your weekend off
+                just right.
+              </p>
+            </div>
+          </div>
+
+          <div
+            id="card9"
+            class="card bg-dark text-white col-10 col-md-5 col-lg-4 my-2"
+          >
+            <div class="card-img-overlay">
+              <h5 class="card-title">ACCOMMODATIONS</h5>
+              <p class="card-text">
+                DreamVille offers a wide range of accommodation, so everyone can
+                find a place to fall in love with. To cater to different needs,
+                there are a variety of packages, each with its own perks.&nbsp;
+              </p>
+            </div>
+          </div>
+
+          <div
+            id="card10"
+            class="card bg-dark text-white col-10 col-md-5 col-lg-4 my-2"
+          >
+            <div class="card-img-overlay">
+              <h5 class="card-title">MARKETPLACE</h5>
+              <p class="card-text">
+                A supermarket, a jewellery store and even an actual salon, where
+                the Angels of Beauty will boost your features and your
+                confidence. Discover the vibrant heart of DreamVille at the
+                Marketplace.
+              </p>
+            </div>
+          </div>
+
+          <div
+            id="card11"
+            class="card bg-dark text-white col-10 col-md-5 col-lg-4 my-2"
+          >
+            <div class="card-img-overlay">
+              <h5 class="card-title">TASTES OF DREAMVILLE</h5>
+              <p class="card-text">
+                Food stands from around the world, BBQ areas for the ultimate
+                summer vibe, a bakery for a fresh pastry and many more. At
+                DreamVille, all your senses will be stimulated, so come hungry
+                and leave happy.
+              </p>
+            </div>
+          </div>
+
+          <div
+            id="card12"
+            class="card bg-dark text-white col-10 col-md-5 col-lg-4 my-2"
+          >
+            <div class="card-img-overlay">
+              <h5 class="card-title">CREATE FRIENDSHIPS, SHARE EXPERIENCES</h5>
+              <p class="card-text">
+                In addition to being the People of Tomorrow's home, DreamVille
+                is primarily a place to forge friendships, share experiences and
+                recharge your batteries. Meet your neighbours and you’ll make
+                friends for life.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container" id="gallery">
+        <h1 class="titulos text-center">Gallery</h1>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" widht="auto" height="200px">
+            <div class="carousel-item active">
+              <video class="img-fluid" autoplay loop muted>
+                <source
+                  class="d-block w-100"
+                  src="media/video3.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+            <div class="carousel-item">
+              <video class="img-fluid" autoplay loop muted>
+                <source
+                  class="d-block w-100"
+                  src="media/video.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+            <div class="carousel-item">
+              <video class="img-fluid" autoplay loop muted>
+                <source
+                  class="d-block w-100"
+                  src="media/video2.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+          </a>
+        </div>
+      </section>
+
+      <section class="container" id="global">
+        <h1 class="titulos text-center">Global Journey</h1>
+        <div class="row mb-5 cards1">
+          <div
+            id="card13"
+            class="card bg-dark text-white col-10 col-md-5 col-lg-4 my-2"
+          >
+            <div class="card-img-overlay">
+              <h5 class="card-title">TRAIN PACKAGES</h5>
+              <p class="card-text">
+                Global Journey gives you the opportunity to travel by train
+                departing from cities that have a good connection with one or
+                more airports.
+              </p>
+            </div>
+          </div>
+
+          <div
+            id="card14"
+            class="card bg-dark text-white col-10 col-md-5 col-lg-4 my-2"
+          >
+            <div class="card-img-overlay">
+              <h5 class="card-title">
+                TRAVEL TO TOMORROWLAND <br />
+                From every corner of the world
+              </h5>
+              <p class="card-text">
+                Travel, together with the People of Tomorrow, from every corner
+                of the world, all united in a once in a lifetime travel
+                experience that brings you to Tomorrowland. Global Journey
+                Packages are the easiest way to travel to Tomorrowland. Global
+                Journey offers you an all-in experience, covering your trip from
+                the moment you take off.
+              </p>
+            </div>
+          </div>
+
+          <div
+            id="card15"
+            class="card bg-dark text-white col-10 col-md-5 col-lg-4 my-2"
+          >
+            <div class="card-img-overlay">
+              <h5 class="card-title">FLIGHT PACKAGES</h5>
+              <p class="card-text">
+                Global Journey offers you Flight Packages with flights departing
+                from all over the world. Fly together with the People of
+                Tomorrow to unite at Tomorrowland.
+              </p>
+            </div>
+          </div>
+
+          <div
+            id="card16"
+            class="card bg-dark text-white col-10 col-md-5 col-lg-4 my-2"
+          >
+            <div class="card-img-overlay">
+              <h5 class="card-title">HOTEL PACKAGES</h5>
+              <p class="card-text">
+                Global Journey Hotel Packages are especially for people who
+                arrive by own means and want to enjoy the unity of the People of
+                Tomorrow.
+              </p>
+            </div>
+          </div>
+
+          <div
+            id="card17"
+            class="card bg-dark text-white col-10 col-md-5 col-lg-4 my-2"
+          >
+            <div class="card-img-overlay">
+              <h5 class="card-title">BUS PACKAGES</h5>
+              <p class="card-text">
+                Travel by bus from one of the departing cities where a dedicated
+                Global Journey host welcomes you and guides you to the gates of
+                Tomorrowland.
+              </p>
+            </div>
+          </div>
+
+          <div
+            id="card18"
+            class="card bg-dark text-white col-10 col-md-5 col-lg-4 my-2"
+          >
+            <div class="card-img-overlay">
+              <h5 class="card-title">FRIENDSHIPS TRAVEL PACKAGES</h5>
+              <p class="card-text">
+                The ultimate way to experience Tomorrowland with a group of
+                friends. Choose between a B&amp;B, apartment, house or a Train
+                Hostel.
+              </p>
+            </div>
+          </div>
+
+          <div
+            id="card19"
+            class="card bg-dark text-white col-10 col-md-5 col-lg-4 my-2"
+          >
+            <div class="card-img-overlay">
+              <h5 class="card-title">DISCOVER EUROPE</h5>
+              <p class="card-text">
+                Extend your Tomorrowland experience and travel through Europe.
+                Discover 3,4 or 5 European cities together with the People of
+                Tomorrow.
+              </p>
+            </div>
+          </div>
+
+          <div
+            id="card20"
+            class="card bg-dark text-white col-10 col-md-5 col-lg-4 my-2"
+          >
+            <div class="card-img-overlay">
+              <h5 class="card-title">DISCOVER BELGIUM</h5>
+              <p class="card-text">
+                Discover some of the pearls of Belgium together with the People
+                of Tomorrow. 4 Magical trips to the most beautiful cities of
+                Belgium: Antwerp, Bruges, Ghent and Brussels.
+              </p>
+            </div>
+          </div>
+          <div
+            id="card21"
+            class="card bg-dark text-white col-10 col-md-5 col-lg-4 my-2"
+          >
+            <div class="card-img-overlay">
+              <h5 class="card-title">SURPRISE PACKAGE</h5>
+              <p class="card-text">
+                Let Tomorrowland and Global Journey surprise you in a way no one
+                else can. Go on a unique journey and dive into new adventures.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container mt-5 py-4">
+      <div class="text-center pb-5">
+        <picture>
+          <source
+            media="(max-width:600px)"
+            srcset="media/logo-footer.svg"
+            alt="logo"
+            height="auto"
+            width="300px"
+          />
+          <img
+            src="media/logo-footer.svg"
+            alt="logo Tomorrowland"
+            height="auto"
+            width="400px"
+          />
+        </picture>
+      </div>
+      <div id="nosotras" class="row py-2 px-5">
+        <img
+          class="col-8 col-md-4 col-lg-2"
+          src="media/valen.png"
+          alt="CAPRA VALENTINA"
+        />
+        <img
+          class="col-8 col-md-4 col-lg-2"
+          src="media/juli.png"
+          alt="IZZO JULIETA"
+        />
+        <img
+          class="col-8 col-md-4 col-lg-2"
+          src="media/any.png"
+          alt="YAMAMOTO
+        ANA"
+        />
+      </div>
+      <p class="text-center">
+        ©2021 TOMORROWLAND | DMT5A | CAPRA VALENTINA - IZZO JULIETA - YAMAMOTO
+        ANA
+      </p>
+    </footer>
+
+    <!-- <script src="js/web.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
